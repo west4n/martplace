@@ -87,14 +87,15 @@
             display: flex;
             align-items: center;
             input {
-                width: 807px;
+                width: 612px;
                 height: 55px;
-                border-radius: 4px;
+                border-radius: 4px 0px 0px 4px;
                 border: 1px solid #dcdcdc;
                 padding: 0 25px;
+
             }
             button {
-                width: 223px;
+                min-width: 223px;
                 height: 55px;
                 border-radius: 4px;
                 background-color: $blue;
@@ -102,9 +103,69 @@
                 font-size: 16px;
                 font-weight: 400;
                 color: #fff;
-                margin-left: 30px;
+                margin-left: 28px;
             }
         }
 
+    }
+}
+.search__inner {
+    position: relative;
+    min-width: 202px;
+    &-default {
+        background-color: #fff;
+        position: relative;
+        cursor: pointer;
+        li {
+            padding: 18px 72px 17px 20px;
+            border-radius: 0px 4px 4px 0px;
+            border: 1px solid #dcdcdc;
+            border-left: none;
+            color: $text;
+        }
+        &::before {
+            content: '';
+            position: absolute;
+            top: 21px;
+            right: 21px;
+            width: 9px;
+            height: 9px;
+            border: 2px solid;
+            border-color: transparent transparent #676767 #676767;
+            transform: rotate(-45deg);
+        }
+    }
+    &-select {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        border-radius: 0 0 4px 4px;
+        border: 1px solid #dcdcdc;
+        border-top: none;
+        display: none;
+        li {
+            padding: 10px 20px;
+            cursor: pointer;
+            color: $text;
+            &:hover {
+                background-color: $blue;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.search__inner.active  {
+       .search__inner-default {
+           &::before {
+               top: 27px;
+               transform: rotate(-225deg);
+           }
+    }
+}
+.search__inner.active {
+    .search__inner-select {
+        display: block;
     }
 }
