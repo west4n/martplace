@@ -10,4 +10,16 @@ $(function(){
         $('.search__inner').removeClass('active');
     })
 
+    $('.weekly-slider__inner').slick({
+        prevArrow: $('.prev-arrow'),
+        nextArrow: $('.next-arrow')
+    });
+
+    $('.weekly-slider__rate').rateYo({
+        ratedFill: "#ffc000",
+        starWidth: "15px",
+        rating: 5,
+        spacing: "3px",
+    });
+
 });
