@@ -25,6 +25,12 @@
     -moz-osx-font-smoothing: grayscale;
   }
   
+  .icon-lnr-eye:before {
+    content: "\e912";
+  }
+  .icon-lnr-clock:before {
+    content: "\e913";
+  }
   .icon-lnr-chevron-right:before {
     content: "\e910";
   }

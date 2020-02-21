@@ -1,6 +1,5 @@
 .small-item {
     width: 361px;
-    height: 529px;
     box-shadow: 0 2px 4px rgba(108, 111, 115, 0.1);
     border-radius: 4px;
     background-color: #ffffff;
@@ -159,6 +158,64 @@
             font-family: 'icomoon';
             font-size: 15px;
             font-weight: 400;
+        }
+    }
+    &__data {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+        border-top: 1px solid #ececec;
+        margin-top: 30px;
+        position: relative;
+        &::before{
+            content: '';
+            position: absolute;
+            width: 1px;
+            height: 95%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #ececec;
+        }
+    }
+    &__communication {
+        display: flex;
+    }
+    &__date {
+        color: #999999;
+        font-size: 15px;
+        font-weight: 400;
+        padding-left: 24px;
+        position: relative;
+        &::before {
+            content: '\e913';
+            position: absolute;
+            left: 0;
+            font-family: 'icomoon';
+            font-size: 15px;
+            color: $blue;
+
+        }
+    }
+    &__comment,
+    &__views {
+        color: #7e7e7e;
+        font-size: 15px;
+        padding-left: 24px;
+        font-weight: 400;
+        position: relative;
+        &::before {
+            content: '\e903';
+            position: absolute;
+            left: 0;
+            font-family: 'icomoon';
+        }
+        
+    }
+    &__views {
+        margin-left: 31px;
+        &::before {
+            content: '\e912'
         }
     }
 }
