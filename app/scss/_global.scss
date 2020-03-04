@@ -6,6 +6,23 @@ html {
 *::after {
     box-sizing: inherit;
 }
+html,
+body {
+    height: 100%;
+    position: relative;
+    overflow-x: hidden;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+.content {
+	flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
+}
 a {
     display: inline-block;
     text-decoration: none;

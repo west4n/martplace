@@ -1,0 +1,29 @@
+.ready {
+    padding: 110px 0;
+    text-align: center;
+    background-color: #151a20;
+    background-image: linear-gradient(to left, #0d3ef2 0%, #7221a0 100%);
+    opacity: 0.9;
+    &__title {
+        color: #ffffff;
+        font-size: 36px;
+        font-weight: 400;
+    }
+    &__subtitle {
+        margin-top: 20px;
+        color: #e7e7e7;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    &__btn {
+        margin-top: 50px;
+        height: 55px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        border-radius: 28px;
+        background-color: #ffffff;
+        padding: 18px 44px;
+        color: $blue;
+        font-size: 16px;
+        font-weight: 400;
+    }
+}

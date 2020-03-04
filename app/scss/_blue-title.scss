@@ -1,0 +1,40 @@
+.blue__title {
+  padding: 60px 0;
+  background-color: #6c6c6c;
+  background-image: linear-gradient(to left, #0d3ef2 0%, #4c1f9c 100%);
+  opacity: 0.9;
+  .breadcrumbs {
+    &__list {
+      li {
+        display: inline-block;
+        position: relative;
+        font-size: 15px;
+        font-weight: 400;
+        & + li {
+          padding-left: 20px;
+          &::before {
+            content: '/';
+            position: absolute;
+            color: #ffffff;
+            left: 4px;
+          }
+        }
+        a {
+          color: #fff;
+        }
+        &:last-child {
+          a,
+          span {
+            color: #bfcad7;
+          }
+        }
+      }
+    }
+  }
+  .title {
+    margin-top: 26px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 500;
+  }
+}

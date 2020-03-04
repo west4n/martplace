@@ -25,6 +25,42 @@
     -moz-osx-font-smoothing: grayscale;
   }
   
+  .icon-lnr-star:before {
+    content: "\e91e";
+  }
+  .icon-lnr-trash:before {
+    content: "\e91f";
+  }
+  .icon-lnr-exit:before {
+    content: "\e914";
+  }
+  .icon-lnr-book:before {
+    content: "\e915";
+  }
+  .icon-lnr-upload:before {
+    content: "\e916";
+  }
+  .icon-lnr-dice:before {
+    content: "\e917";
+  }
+  .icon-lnr-cog:before {
+    content: "\e918";
+  }
+  .icon-lnr-home:before {
+    content: "\e919";
+  }
+  .icon-lnr-user:before {
+    content: "\e91a";
+  }
+  .icon-lnr-cart1:before {
+    content: "\e91b";
+  }
+  .icon-lnr-envelope1:before {
+    content: "\e91c";
+  }
+  .icon-lnr-alarm:before {
+    content: "\e91d";
+  }
   .icon-lnr-eye:before {
     content: "\e912";
   }
@@ -85,4 +121,27 @@
   .icon-lnr-heart:before {
     content: "\e90f";
   }
+  .icon-twitter:before {
+    content: "\f099";
+  }
+  .icon-facebook:before {
+    content: "\f09a";
+  }
+  .icon-facebook-f:before {
+    content: "\f09a";
+  }
+  .icon-pinterest:before {
+    content: "\f0d2";
+  }
+  .icon-linkedin:before {
+    content: "\f0e1";
+  }
+  .icon-dribbble:before {
+    content: "\f17d";
+  }
+  .icon-google:before {
+    content: "\f1a0";
+  }
+  
+  
   
