@@ -55,6 +55,9 @@ body {
     max-width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
+    &-fluid {
+        padding: 0 15px;
+    }
 }
 .title-wrapper {
     width: 100%;
