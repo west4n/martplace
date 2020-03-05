@@ -25,6 +25,15 @@
     -moz-osx-font-smoothing: grayscale;
   }
   
+  .icon-lnr-inbox:before {
+    content: "\e920";
+  }
+  .icon-lnr-phone1:before {
+    content: "\e921";
+  }
+  .icon-lnr-map-marker1:before {
+    content: "\e922";
+  }
   .icon-lnr-star:before {
     content: "\e91e";
   }
@@ -142,6 +151,7 @@
   .icon-google:before {
     content: "\f1a0";
   }
+  
   
   
   
