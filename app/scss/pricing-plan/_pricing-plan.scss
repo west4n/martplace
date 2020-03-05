@@ -1,0 +1,114 @@
+.pricing-plan {
+  padding: 120px 0;
+  background-color: #eff1f5;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    position: relative;
+    padding: 30px;
+    text-align: center;
+    max-width: 360px;
+    box-shadow: 0 2px 4px rgba(108, 111, 115, 0.1);
+    border-radius: 4px;
+    background-color: #ffffff;
+    &.red::before,
+    &.blue::before,
+    &.yellow::before {
+        content: '';
+        top: 0;
+        left: 0;
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        border-radius: 3px 3px 0 0;
+    }
+    &.red {
+      &::before {
+        background-color: #ff6a6c;
+      }
+    }
+    &.blue {
+      &::before {
+        background-color: $blue;
+      }
+    }
+    &.yellow {
+      &::before {
+        background-color: #feb71d;
+      }
+    }
+  }
+  &__title {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e8ebf0;
+  }
+  &__price {
+    color: #000000;
+    font-size: 36px;
+    font-weight: 400;
+    position: relative;
+    margin-top: 20px;
+    span {
+      font-size: 16px;
+      color: #555555;
+    }
+    sup {
+      font-size: 18px;
+    }
+    
+  }
+  &__list {
+    text-align: left;
+    li {
+      padding-left: 16px;
+      position: relative;
+      font-size: 16px;
+      font-weight: 400;
+      margin-top: 38px;
+      span {
+        color: #000000;
+        font-weight: 500;
+      }
+      &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 7px;
+        border-radius: 50%;
+        width: 7px;
+        height: 7px;
+        background-color: #c5cad4;
+      }
+    }
+    li + li {
+      margin-top: 15px;
+    }
+  }
+  &__btn  {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 0 80px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    color: #ffffff;
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: 500;
+    &.red{
+      background-color: #ff6a6c;
+    }
+    &.blue{
+      background-color: $blue;
+    }
+    &.yellow{
+      background-color: #feb71d;
+    }
+  }
+}

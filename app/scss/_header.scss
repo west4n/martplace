@@ -6,6 +6,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    .header__dropdown-btn {
+        display: none;
+    }
 }
 .header__info {
     display: flex;

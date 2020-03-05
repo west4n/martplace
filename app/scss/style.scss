@@ -1,5 +1,4 @@
 // PAGE INDEX
-
 @import 'vars';
 @import 'fonts';
 @import 'buttons';
@@ -19,13 +18,19 @@
 @import 'promise';
 @import 'ready';
 @import 'footer';
-
 // END PAGE INDEX
+
 // PAGE TERMS
-
 @import 'terms/terms';
-
 // END PAGE TERMS
+
+// PAGE pricing-plan
+@import 'pricing-plan/pricing-plan';
+// END pricing-plan
+
+// PAGE 404
+@import '404/404';
+// END 404
 
 @import 'blue-title';
 @import 'media';

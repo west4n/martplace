@@ -271,6 +271,11 @@
   .cart__wrapper {
     display: none;
   }
+  .header__inner {
+    .header__dropdown-btn {
+      display: block;
+    }
+  }
 }
 
 @media (max-width: 470px) {
