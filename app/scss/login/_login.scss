@@ -26,6 +26,9 @@
   }
   &__info {
     padding: 30px 50px 0;
+    .recover__btn {
+      margin-top: 10px;
+    }
     button {
       max-width: 190px;
       width: 100%;
@@ -102,4 +105,10 @@
       }
     }
   }
+}
+.login__subtitle-recover {
+  text-align: left;
+  padding: 0 50px;
+  line-height: 30px;
+  padding-bottom: 25px;
 }
