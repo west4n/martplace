@@ -197,3 +197,80 @@
         }
     }
 }
+.footer,
+.product {
+    &__social {
+        display: flex;
+        align-items: center;
+        margin-top: 48px;
+        &-box {
+            border-radius: 50%;
+            width: 42px;
+            height: 42px;
+            position: relative;
+            margin-right: 14px;
+            &:last-child {
+                margin-right: 0;
+            }
+            &::before {
+                position: absolute;
+                color: #ffffff;
+                font-family: "icomoon";
+                font-size: 16px;
+                font-weight: 400;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+    .facebook {
+        background-color: #395799;
+        &::before {
+            content: '\f09a';
+        }
+    }
+    .twitter {
+        background-color: #19b2f5;
+        &::before {
+            content: '\f099';
+        }
+    }
+    .google {
+        background-color: #f05b44;
+        &::before {
+            content: '\f1a0';
+        }
+    }
+    .pinterest {
+        background-color: #9c0c1c;
+        &::before {
+            content: '\f0d2';
+        }
+    }
+    .linkedin {
+        background-color: #0da6be;
+        &::before {
+            content: '\f0e1';
+        }
+    }
+    .dribbble {
+        background-color: #ea4c89;
+        &::before {
+            content: '\f17d';
+        }
+    }
+    &__bottom {
+        padding: 40px 0;
+        background-color: #192027;
+        text-align: center;
+        color: #999999;
+        font-size: 15px;
+        font-weight: 400;
+        span {
+            a{
+                color: #ffffff;
+            }
+        }
+    }
+}
