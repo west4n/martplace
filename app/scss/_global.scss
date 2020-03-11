@@ -96,3 +96,32 @@ body {
     }
 
 }
+.pagination {
+    margin-top: 60px;
+    .pagination__list {
+        li {
+            display: inline-block;
+            a,
+            span {
+                width: 50px;
+                height: 38px;
+                border-radius: 19px;
+                background-color: #ffffff;
+                text-align: center;
+                padding: 10px; 
+                &.active {
+                    background-color: #0674ec;
+                    color: #ffffff;
+                }
+                &.prev {
+                    margin-right: 20px;
+                }
+                &.next {
+                    margin-left: 20px;
+                    color: #ffffff;
+                    background-color: #7347c1;
+                }
+            }
+        }
+    }
+}

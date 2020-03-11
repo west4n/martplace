@@ -25,6 +25,15 @@
     -moz-osx-font-smoothing: grayscale;
   }
   
+  .icon-lnr-chevron-down:before {
+    content: "\e925";
+  }
+  .icon-lnr-arrow-right:before {
+    content: "\e923";
+  }
+  .icon-lnr-arrow-left:before {
+    content: "\e924";
+  }
   .icon-lnr-inbox:before {
     content: "\e920";
   }
