@@ -1,0 +1,23 @@
+.feed {
+    padding: 120px 0;
+    background-color: #eff1f5;
+    .blue {
+        background-color: $blue;
+    }
+    &-slider {
+        margin-top: 51px;
+    }
+}
+.feed-slider {
+    .slick-list {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .small-item {
+        margin: 0 auto;
+    }
+}
+.prev__arrow-blue,
+.next__arrow-blue {
+    cursor: pointer;
+}

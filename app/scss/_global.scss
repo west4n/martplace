@@ -6,9 +6,27 @@ html {
 *::after {
     box-sizing: inherit;
 }
+html,
+body {
+    height: 100%;
+    position: relative;
+    overflow-x: hidden;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+.content {
+	flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
+}
 a {
     display: inline-block;
     text-decoration: none;
+    color: $text;
 }
 ul,
 li {
@@ -16,7 +34,94 @@ li {
     padding: 0;
     list-style-type: none;
 }
+button {
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+p,
+h1,
+h2,
+h3 {
+    margin: 0;
+}
 body {
-    font-size: 15px;
-    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: $text;
+}
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+    &-fluid {
+        padding: 0 15px;
+    }
+}
+.title-wrapper {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(108, 111, 115, 0.1);
+    background-color: #ffffff;
+    border-radius: 4px;
+    padding: 30px 29px;
+    .title {
+        color: #000000;
+        font-size: 30px;
+        font-weight: 400;
+    }
+}
+.title-blue {
+    text-align: center;
+    .title-blue__title {
+        color: #000000;
+        font-size: 36px;
+        font-weight: 400;
+        span {
+            color: #0674ec;
+        }
+    }
+    .title-blue__subtitle {
+        margin: 0 auto;
+        margin-top: 29px;
+        margin-bottom: 60px;
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 400;
+        max-width: 671px;
+    }
+
+}
+.pagination {
+    margin-top: 60px;
+    .pagination__list {
+        li {
+            display: inline-block;
+            a,
+            span {
+                width: 50px;
+                height: 38px;
+                border-radius: 19px;
+                background-color: #ffffff;
+                text-align: center;
+                padding: 10px; 
+                &.active {
+                    background-color: #0674ec;
+                    color: #ffffff;
+                }
+                &.prev {
+                    margin-right: 20px;
+                }
+                &.next {
+                    margin-left: 20px;
+                    color: #ffffff;
+                    background-color: #7347c1;
+                }
+            }
+        }
+    }
 }

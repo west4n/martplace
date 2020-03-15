@@ -1,2 +1,68 @@
-@import 'global';
+// PAGE INDEX
 @import 'vars';
+@import 'fonts';
+@import 'buttons';
+@import 'global';
+@import 'item';
+@import 'header';
+@import 'main';
+@import 'advantages';
+@import 'weekly';
+@import 'newest';
+@import 'feed';
+@import 'sales';
+@import 'choose';
+@import 'choice';
+@import 'feedback';
+@import 'news';
+@import 'promise';
+@import 'ready';
+@import 'footer';
+// END PAGE INDEX
+
+// PAGE TERMS
+@import 'terms/terms';
+// END PAGE TERMS
+
+// PAGE pricing-plan
+@import 'pricing-plan/pricing-plan';
+// END pricing-plan
+
+// PAGE 404
+@import '404/404';
+// END 404
+
+// PAGE works
+@import 'works/works';
+// END works
+
+// PAGE contact
+@import 'contact/contact';
+// END contact
+
+// PAGE login
+@import 'login/login';
+// END login
+
+// PAGE register
+@import 'register/register';
+// END register
+
+// PAGE product
+@import 'product/product';
+// END product
+
+// PAGE blog
+@import 'blog/blog';
+// END blog
+
+// PAGE favorites
+@import 'favorites/favorites';
+// END favorites
+
+// PAGE category-lsit
+@import 'category-list/category-list';
+// END category-lsit
+
+@import 'blue-title';
+@import 'media';

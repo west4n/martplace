@@ -1,0 +1,33 @@
+.newest {
+    padding: 120px 0px;
+    background-color: #f6f7fb;
+    &-filter {
+        margin-top: 30px;
+        width: 100%;
+        padding: 30px;
+        background-color: #fff;
+        box-shadow: 0 1px 2px rgba(90, 93, 100, 0.1);
+        border-radius: 4px;
+        &__list {
+            li {
+                display: inline-block;
+                & + li {
+                    margin-left: 9px;
+                }
+            }
+        }
+        &__wrapper {
+            margin-top: 51px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+    }
+    &__button {
+        margin-top: 28px;
+    }
+    .mixitup-control-active {
+        background-color: $blue;
+        color: #fff;
+    }
+}

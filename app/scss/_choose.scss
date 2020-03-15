@@ -1,0 +1,60 @@
+.choose {
+    padding: 120px 0;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__card {
+        width: 361px;
+        box-shadow: 0 2px 50px rgba(0, 0, 0, 0.08);
+        border-radius: 4px;
+        background-color: #ffffff;
+        padding: 10px 35px 59px 19px;
+        margin-bottom: 30px;
+    }
+    &__number {
+        color: rgba($color: $blue, $alpha: 0.2);
+        font-size: 48px;
+        font-weight: 300;
+    }
+    &__wrapper {
+        text-align: center;
+    }
+    &__img {
+        font-size: 60px;
+        font-weight: 400;
+    }
+    .icon-lnr-license {
+        color: $blue;
+    }
+    .icon-lnr-magic-wand {
+        color: #7f4ec2;
+    }
+    .icon-lnr-lock {
+        color: #77de51;
+    }
+    .icon-lnr-chart-bars {
+        color: #feb71d;
+    }
+    .icon-lnr-leaf {
+        color: #58c9e9;
+    }
+    .icon-lnr-phone {
+        color: #ff6a6d;
+    }
+    &__title {
+        color: #000000;
+        font-size: 24px;
+        font-weight: 400;
+        margin-top: 40px;
+    }
+    &__text {
+        margin: 0 auto;
+        margin-top: 29px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        max-width: 292px;
+    }
+}

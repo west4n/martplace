@@ -1,0 +1,46 @@
+.sales {
+    padding: 95px 0 98px;
+    background-color: rgba($color: #0d0f13, $alpha: 0.8);
+    &-inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        &__img {
+            color: #feb71d;
+            font-size: 48px;
+            font-weight: 400;
+        }
+        .img-blue {
+            color: #58c9e9;
+        }
+        .img-red {
+            color: #ff6a6d;
+        }
+        .img-green {
+            color: #77de51;
+        }
+        &__number {
+            font-weight: 400;
+            color: #feb71d;
+            font-size: 36px;
+            margin-top: 52px;
+        }
+        .number-blue {
+            color: #58c9e9;
+        }
+        .number-red {
+            color: #ff6a6d;
+        }
+        .number-green {
+            color: #77de51;
+        }
+        &__title {
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: 400;
+            margin-top: 16px;
+        }
+    }
+    
+}

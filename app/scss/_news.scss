@@ -1,0 +1,8 @@
+.news {
+    padding: 120px 0;
+    background-color: #eff1f5;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+}
