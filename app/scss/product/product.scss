@@ -1,6 +1,9 @@
 .product {
   background-color: #eff1f5;
   padding: 71px 0 120px;
+  &__social {
+    margin-top: 0;
+  }
   &__inner {
     display: flex;
     justify-content: space-between;
@@ -429,6 +432,7 @@
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
   .blue__title {
     margin-top: 89px;

@@ -44,7 +44,22 @@ $(function(){
 
     $('.weekly-slider__inner').slick({
         prevArrow: $('.prev-arrow'),
-        nextArrow: $('.next-arrow')
+        nextArrow: $('.next-arrow'),
+        slidesToShow: 1,
+        responsive: [
+            {
+                breakpoint: 1040,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 875,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+        ]
     });
 
     $('.feed-slider').slick({
@@ -52,7 +67,21 @@ $(function(){
         slidesToScroll: 1,
         centerMode: false,
         prevArrow: $('.prev__arrow-blue'),
-        nextArrow: $('.next__arrow-blue')
+        nextArrow: $('.next__arrow-blue'),
+        responsive: [
+            {
+                breakpoint: 1120,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 875,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+        ]
     });
 
     $('.weekly-slider__rate').rateYo({
